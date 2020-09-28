@@ -8,7 +8,7 @@ import Hello from './components/Hello'
 function App() {
   return (
     <div className="App">
-      <Hello name='Tanmoy' age='25' />
+      <Hello name='Tanmoy' age='25'>This is children part just for this component.</Hello>
       <Hello name='Akib' age='30' />
       <Hello name='Rakib' age='26' />
 
