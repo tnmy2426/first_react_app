@@ -1,6 +1,7 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
+import Subscribe from './components/Subscribe';
 // import Hello from './components/Hello'
 // import Navbar from './components/Navbar';
 import Welcome from './components/Welcome';
@@ -12,9 +13,11 @@ function App() {
       <Hello name='Akib' age='30' />
       <Hello name='Rakib' age='26' /> */}
 
-      <Welcome name='Abdullah Al Nahdi' age='24' />
+      {/* <Welcome name='Abdullah Al Nahdi' age='24' /> */}
 
       {/* <Navbar /> */}
+
+      <Subscribe />
     </div>
   );
 }
