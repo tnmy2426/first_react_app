@@ -1,7 +1,8 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import Subscribe from './components/Subscribe';
+import Counter from './components/Counter';
+// import Subscribe from './components/Subscribe';
 // import Hello from './components/Hello'
 // import Navbar from './components/Navbar';
 import Welcome from './components/Welcome';
@@ -17,7 +18,8 @@ function App() {
 
       {/* <Navbar /> */}
 
-      <Subscribe />
+      {/* <Subscribe /> */}
+      <Counter />
     </div>
   );
 }
