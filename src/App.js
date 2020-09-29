@@ -1,12 +1,13 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import CarOne from './components/CarOne';
+import CarTwo from './components/CarTwo';
+// import CarOne from './components/CarOne';
 // import Counter from './components/Counter';
 // import Subscribe from './components/Subscribe';
 // import Hello from './components/Hello'
 // import Navbar from './components/Navbar';
-import Welcome from './components/Welcome';
+// import Welcome from './components/Welcome';
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
 
       {/* <Subscribe /> */}
       {/* <Counter /> */}
-      <CarOne brand='BMW' color='Black' />
+      {/* <CarOne brand='BMW' color='Black' /> */}
+      <CarTwo brand='Ford' color='Blue' />
     </div>
   );
 }
