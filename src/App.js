@@ -2,7 +2,8 @@ import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
 // import CarTwo from './components/CarTwo';
-import ClickOne from './components/ClickOne';
+// import ClickOne from './components/ClickOne';
+import ClickTwo from './components/ClickTwo';
 // import CarOne from './components/CarOne';
 // import Counter from './components/Counter';
 // import Subscribe from './components/Subscribe';
@@ -25,7 +26,8 @@ function App() {
       {/* <Counter /> */}
       {/* <CarOne brand='BMW' color='Black' /> */}
       {/* <CarTwo brand='Ford' color='Blue' /> */}
-      <ClickOne />
+      {/* <ClickOne /> */}
+      <ClickTwo />
     </div>
   );
 }
