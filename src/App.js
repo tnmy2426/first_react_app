@@ -1,7 +1,8 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import BindEvent from './components/BindEvent';
+import Parent from './components/Parent';
+// import BindEvent from './components/BindEvent';
 // import CarTwo from './components/CarTwo';
 // import ClickOne from './components/ClickOne';
 // import ClickTwo from './components/ClickTwo';
@@ -29,8 +30,8 @@ function App() {
       {/* <CarTwo brand='Ford' color='Blue' /> */}
       {/* <ClickOne /> */}
       {/* <ClickTwo /> */}
-      <BindEvent />
-
+      {/* <BindEvent /> */}
+      <Parent />
     </div>
   );
 }
