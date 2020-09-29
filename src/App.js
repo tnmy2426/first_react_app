@@ -1,7 +1,8 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import Counter from './components/Counter';
+import CarOne from './components/CarOne';
+// import Counter from './components/Counter';
 // import Subscribe from './components/Subscribe';
 // import Hello from './components/Hello'
 // import Navbar from './components/Navbar';
@@ -19,7 +20,8 @@ function App() {
       {/* <Navbar /> */}
 
       {/* <Subscribe /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <CarOne brand='BMW' color='Black' />
     </div>
   );
 }
