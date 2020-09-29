@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import Parent from './components/Parent';
+import Condition from './components/Condition';
+// import Parent from './components/Parent';
 // import BindEvent from './components/BindEvent';
 // import CarTwo from './components/CarTwo';
 // import ClickOne from './components/ClickOne';
@@ -31,7 +32,8 @@ function App() {
       {/* <ClickOne /> */}
       {/* <ClickTwo /> */}
       {/* <BindEvent /> */}
-      <Parent />
+      {/* <Parent /> */}
+      <Condition />
     </div>
   );
 }
