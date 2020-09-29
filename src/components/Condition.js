@@ -10,19 +10,32 @@ class Condition extends Component {
     }
     
     render() {
+        // if (this.state.isUser) {
+        //     return (
+        //         <div>
+        //             <h1>This is class component in Heading One</h1>
+        //         </div>
+        //     )
+        // } else {
+        //     return (
+        //         <div>
+        //             <h3>This is class component in Heading Three</h3>
+        //         </div>
+        //     )
+        // }
+
+        let msg;
         if (this.state.isUser) {
-            return (
-                <div>
-                    <h1>This is class component in Heading One</h1>
-                </div>
-            )
+            msg = <h1>This is class component in Heading One</h1>
         } else {
-            return (
-                <div>
-                    <h3>This is class component in Heading Three</h3>
-                </div>
-            )
+            msg = <h3>This is class component in Heading Three</h3>
         }
+
+        return(
+            <div>
+                {msg}
+            </div>
+        )
     }
 }
 
