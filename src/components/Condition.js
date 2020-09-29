@@ -37,8 +37,9 @@ class Condition extends Component {
         //     </div>
         // )
 
-        return this.state.isUser ? <div><h1>This is class component in Heading One</h1></div> :
-            <div><h3>This is class component in Heading Three</h3></div>
+        // return this.state.isUser ? <div><h1>This is class component in Heading One</h1></div> :
+        //     <div><h3>This is class component in Heading Three</h3></div>
+        return this.state.isUser && <div><h1>This is class component in Heading One</h1></div>
     }
 }
 
