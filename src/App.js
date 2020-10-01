@@ -1,7 +1,8 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import Form from './components/Form';
+import ComponentA from './components/ComponentA';
+// import Form from './components/Form';
 // import List from './components/List';
 // import Condition from './components/Condition';
 // import Parent from './components/Parent';
@@ -46,7 +47,8 @@ function App() {
       {/* <Parent /> */}
       {/* <Condition /> */}
       {/* <List /> */}
-      <Form />
+      {/* <Form /> */}
+      <ComponentA />
     </div>
   );
 }
