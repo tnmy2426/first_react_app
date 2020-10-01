@@ -1,13 +1,17 @@
 import React from 'react'
+import Name from './Name'
 
 const List = () => {
     const names = ['Tanmoy', 'Akib', 'Rakib']
+
     return (
         <div>
             {
                 names.map((name, index)=> {
                     return (
-                        <h2 key={index}>{ name }</h2>
+                        <div key={index}>
+                            <Name name={name}/>
+                        </div>
                     )
                 })
             }
