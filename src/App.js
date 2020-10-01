@@ -1,7 +1,7 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import List from './components/List';
+// import List from './components/List';
 // import Condition from './components/Condition';
 // import Parent from './components/Parent';
 // import BindEvent from './components/BindEvent';
@@ -14,10 +14,13 @@ import List from './components/List';
 // import Hello from './components/Hello'
 // import Navbar from './components/Navbar';
 // import Welcome from './components/Welcome';
+import './components/style.css'
 
 function App() {
+  let success = true
   return (
     <div className="App">
+      <h2 className={ success ? 'success': ''}>Hello Friends!</h2>
       {/* <Hello name='Tanmoy' age='25'>This is children part just for this component.</Hello>
       <Hello name='Akib' age='30' />
       <Hello name='Rakib' age='26' /> */}
@@ -35,7 +38,7 @@ function App() {
       {/* <BindEvent /> */}
       {/* <Parent /> */}
       {/* <Condition /> */}
-      <List />
+      {/* <List /> */}
     </div>
   );
 }
