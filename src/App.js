@@ -1,7 +1,8 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import Condition from './components/Condition';
+import List from './components/List';
+// import Condition from './components/Condition';
 // import Parent from './components/Parent';
 // import BindEvent from './components/BindEvent';
 // import CarTwo from './components/CarTwo';
@@ -33,7 +34,8 @@ function App() {
       {/* <ClickTwo /> */}
       {/* <BindEvent /> */}
       {/* <Parent /> */}
-      <Condition />
+      {/* <Condition /> */}
+      <List />
     </div>
   );
 }
