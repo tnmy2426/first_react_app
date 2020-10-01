@@ -1,6 +1,7 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
+import Form from './components/Form';
 // import List from './components/List';
 // import Condition from './components/Condition';
 // import Parent from './components/Parent';
@@ -14,19 +15,19 @@ import './App.css';
 // import Hello from './components/Hello'
 // import Navbar from './components/Navbar';
 // import Welcome from './components/Welcome';
-import './components/style.css'
-import style from './components/style.module.css'
+// import './components/style.css'
+// import style from './components/style.module.css'
 
 function App() {
-  let success = {
-    color:'green',
-    fontSize: '30px'
-  }
+  // let success = {
+  //   color:'green',
+  //   fontSize: '30px'
+  // }
   return (
     <div className="App">
       {/* <h2 className={ success ? 'success': ''}>Hello Friends!</h2> */}
-      <h2 style={ success }>Hello Friends!</h2>
-      <h2 className={style.primary}>Hello Friends!</h2>
+      {/* <h2 style={ success }>Hello Friends!</h2> */}
+      {/* <h2 className={ style.primary }>Hello Friends!</h2> */}
       {/* <Hello name='Tanmoy' age='25'>This is children part just for this component.</Hello>
       <Hello name='Akib' age='30' />
       <Hello name='Rakib' age='26' /> */}
@@ -45,6 +46,7 @@ function App() {
       {/* <Parent /> */}
       {/* <Condition /> */}
       {/* <List /> */}
+      <Form />
     </div>
   );
 }
