@@ -15,6 +15,7 @@ import './App.css';
 // import Navbar from './components/Navbar';
 // import Welcome from './components/Welcome';
 import './components/style.css'
+import style from './components/style.module.css'
 
 function App() {
   let success = {
@@ -25,6 +26,7 @@ function App() {
     <div className="App">
       {/* <h2 className={ success ? 'success': ''}>Hello Friends!</h2> */}
       <h2 style={ success }>Hello Friends!</h2>
+      <h2 className={style.primary}>Hello Friends!</h2>
       {/* <Hello name='Tanmoy' age='25'>This is children part just for this component.</Hello>
       <Hello name='Akib' age='30' />
       <Hello name='Rakib' age='26' /> */}
