@@ -17,10 +17,14 @@ import './App.css';
 import './components/style.css'
 
 function App() {
-  let success = true
+  let success = {
+    color:'green',
+    fontSize: '30px'
+  }
   return (
     <div className="App">
-      <h2 className={ success ? 'success': ''}>Hello Friends!</h2>
+      {/* <h2 className={ success ? 'success': ''}>Hello Friends!</h2> */}
+      <h2 style={ success }>Hello Friends!</h2>
       {/* <Hello name='Tanmoy' age='25'>This is children part just for this component.</Hello>
       <Hello name='Akib' age='30' />
       <Hello name='Rakib' age='26' /> */}
