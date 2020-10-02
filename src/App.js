@@ -1,7 +1,8 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import ComponentA from './components/ComponentA';
+import Update from './components/Update';
+// import ComponentA from './components/ComponentA';
 // import Form from './components/Form';
 // import List from './components/List';
 // import Condition from './components/Condition';
@@ -48,7 +49,8 @@ function App() {
       {/* <Condition /> */}
       {/* <List /> */}
       {/* <Form /> */}
-      <ComponentA />
+      {/* <ComponentA /> */}
+      <Update />
     </div>
   );
 }
