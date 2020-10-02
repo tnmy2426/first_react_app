@@ -1,7 +1,8 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import Update from './components/Update';
+import UnmountA from './components/UnmountA';
+// import Update from './components/Update';
 // import ComponentA from './components/ComponentA';
 // import Form from './components/Form';
 // import List from './components/List';
@@ -50,7 +51,8 @@ function App() {
       {/* <List /> */}
       {/* <Form /> */}
       {/* <ComponentA /> */}
-      <Update />
+      {/* <Update /> */}
+      <UnmountA />
     </div>
   );
 }
