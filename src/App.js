@@ -1,7 +1,9 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import UnmountA from './components/UnmountA';
+import Car from './components/Car';
+import Error from './components/Error'
+// import UnmountA from './components/UnmountA';
 // import Update from './components/Update';
 // import ComponentA from './components/ComponentA';
 // import Form from './components/Form';
@@ -52,7 +54,16 @@ function App() {
       {/* <Form /> */}
       {/* <ComponentA /> */}
       {/* <Update /> */}
-      <UnmountA />
+      {/* <UnmountA /> */}
+      <Error>
+        <Car car='BMW' />
+      </Error>
+      <Error>
+        <Car car='Audi' />
+      </Error>
+      <Error>
+        <Car car='Nokia' />
+      </Error>      
     </div>
   );
 }
