@@ -1,7 +1,8 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import MemoA from './components/MemoA';
+import ForwardRefA from './components/ForwardRefA';
+// import MemoA from './components/MemoA';
 // import PureComp from './components/PureComp';
 // import FagmentTest from './components/FagmentTest';
 // import Table from './components/Table';
@@ -71,7 +72,8 @@ function App() {
       {/* <FagmentTest />
       <Table /> */}
       {/* <PureComp /> */}
-      <MemoA />
+      {/* <MemoA /> */}
+      <ForwardRefA />
     </div>
   );
 }
