@@ -1,8 +1,10 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import Car from './components/Car';
-import Error from './components/Error'
+import FagmentTest from './components/FagmentTest';
+import Table from './components/Table';
+// import Car from './components/Car';
+// import Error from './components/Error'
 // import UnmountA from './components/UnmountA';
 // import Update from './components/Update';
 // import ComponentA from './components/ComponentA';
@@ -55,7 +57,7 @@ function App() {
       {/* <ComponentA /> */}
       {/* <Update /> */}
       {/* <UnmountA /> */}
-      <Error>
+      {/* <Error>
         <Car car='BMW' />
       </Error>
       <Error>
@@ -63,7 +65,9 @@ function App() {
       </Error>
       <Error>
         <Car car='Nokia' />
-      </Error>      
+      </Error>       */}
+      <FagmentTest />
+      <Table />
     </div>
   );
 }
