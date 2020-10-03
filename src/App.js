@@ -1,8 +1,9 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import FagmentTest from './components/FagmentTest';
-import Table from './components/Table';
+import PureComp from './components/PureComp';
+// import FagmentTest from './components/FagmentTest';
+// import Table from './components/Table';
 // import Car from './components/Car';
 // import Error from './components/Error'
 // import UnmountA from './components/UnmountA';
@@ -66,8 +67,9 @@ function App() {
       <Error>
         <Car car='Nokia' />
       </Error>       */}
-      <FagmentTest />
-      <Table />
+      {/* <FagmentTest />
+      <Table /> */}
+      <PureComp />
     </div>
   );
 }
