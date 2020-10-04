@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
 
 class User extends Component {
     constructor(props) {
@@ -7,12 +7,20 @@ class User extends Component {
         this.state = {
              value: 0
         }
+        this.increament = this.increament.bind(this)
     }
+
+    increament(){
+        this.setState((prevState) => ({
+            value: prevState.value +1
+        }))
+    }
+    
     
     render() {
         return (
             <div>
-                <h1>Render Props: { this.props.render(false, this.state.value)}</h1>
+                <Fragment>{ this.props.render(this.state.value, this.increament)}</Fragment>
             </div>
         )
     }

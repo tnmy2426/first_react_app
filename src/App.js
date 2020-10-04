@@ -1,6 +1,8 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
+import ClickCounterThree from './components/ClickCounterThree';
+import HoverCounterTwo from './components/HoverCounterTwo';
 import User from './components/User';
 // import ClickCounter from './components/ClickCounter';
 // import ClickCounterTwo from './components/ClickCounterTwo';
@@ -83,7 +85,8 @@ function App() {
       {/* <ClickCounter name="Tanmoy" />
       <HoverCounter name="Akib" />
       <ClickCounterTwo name="Rakib" /> */}
-      <User render={(isUser, value) => isUser ? "Welcome user" : `Value: ${value}`} />
+      <User render= { (value, increament) => ( <ClickCounterThree value={value} increament={increament} /> )} />
+      <User render= { (value, increament) => ( <HoverCounterTwo value={value} increament={increament} /> )} />
     </div>
   );
 }
