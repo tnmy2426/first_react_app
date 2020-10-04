@@ -1,9 +1,11 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import ClickCounterThree from './components/ClickCounterThree';
-import HoverCounterTwo from './components/HoverCounterTwo';
-import User from './components/User';
+import CompOne from './components/CompOne';
+import { UserProvider } from './components/UserContext';
+// import ClickCounterThree from './components/ClickCounterThree';
+// import HoverCounterTwo from './components/HoverCounterTwo';
+// import User from './components/User';
 // import ClickCounter from './components/ClickCounter';
 // import ClickCounterTwo from './components/ClickCounterTwo';
 // import HoverCounter from './components/HoverCounter';
@@ -85,8 +87,11 @@ function App() {
       {/* <ClickCounter name="Tanmoy" />
       <HoverCounter name="Akib" />
       <ClickCounterTwo name="Rakib" /> */}
-      <User render= { (value, increament) => ( <ClickCounterThree value={value} increament={increament} /> )} />
-      <User render= { (value, increament) => ( <HoverCounterTwo value={value} increament={increament} /> )} />
+      {/* <User render= { (value, increament) => ( <ClickCounterThree value={value} increament={increament} /> )} />
+      <User render= { (value, increament) => ( <HoverCounterTwo value={value} increament={increament} /> )} /> */}
+      <UserProvider value= "Tanmoy">
+        <CompOne />
+      </UserProvider>
     </div>
   );
 }
