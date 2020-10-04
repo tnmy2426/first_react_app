@@ -1,7 +1,10 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import PortalDemo from './components/PortalDemo';
+import ClickCounter from './components/ClickCounter';
+import ClickCounterTwo from './components/ClickCounterTwo';
+import HoverCounter from './components/HoverCounter';
+// import PortalDemo from './components/PortalDemo';
 // import ForwardRefA from './components/ForwardRefA';
 // import MemoA from './components/MemoA';
 // import PureComp from './components/PureComp';
@@ -75,7 +78,10 @@ function App() {
       {/* <PureComp /> */}
       {/* <MemoA /> */}
       {/* <ForwardRefA /> */}
-      <PortalDemo />
+      {/* <PortalDemo /> */}
+      <ClickCounter name="Tanmoy" />
+      <HoverCounter name="Akib" />
+      <ClickCounterTwo name="Rakib" />
     </div>
   );
 }
