@@ -1,9 +1,10 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import ClickCounter from './components/ClickCounter';
-import ClickCounterTwo from './components/ClickCounterTwo';
-import HoverCounter from './components/HoverCounter';
+import User from './components/User';
+// import ClickCounter from './components/ClickCounter';
+// import ClickCounterTwo from './components/ClickCounterTwo';
+// import HoverCounter from './components/HoverCounter';
 // import PortalDemo from './components/PortalDemo';
 // import ForwardRefA from './components/ForwardRefA';
 // import MemoA from './components/MemoA';
@@ -79,9 +80,10 @@ function App() {
       {/* <MemoA /> */}
       {/* <ForwardRefA /> */}
       {/* <PortalDemo /> */}
-      <ClickCounter name="Tanmoy" />
+      {/* <ClickCounter name="Tanmoy" />
       <HoverCounter name="Akib" />
-      <ClickCounterTwo name="Rakib" />
+      <ClickCounterTwo name="Rakib" /> */}
+      <User render={(isUser, value) => isUser ? "Welcome user" : `Value: ${value}`} />
     </div>
   );
 }
