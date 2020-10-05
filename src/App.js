@@ -1,8 +1,9 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
+import HookUseStateWithObject from './components/HookUseStateWithObject';
 // import CompOne from './components/CompOne';
-import HookCounter from './components/HookCounter';
+// import HookCounter from './components/HookCounter';
 // import { UserProvider } from './components/UserContext';
 // import ClickCounterThree from './components/ClickCounterThree';
 // import HoverCounterTwo from './components/HoverCounterTwo';
@@ -95,7 +96,8 @@ function App() {
       </UserProvider> */}
 
       {/* REACT HOOKS */}
-      <HookCounter />
+      {/* <HookCounter /> */}
+      <HookUseStateWithObject />
     </div>
   );
 }
