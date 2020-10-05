@@ -1,8 +1,9 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import CompOne from './components/CompOne';
-import { UserProvider } from './components/UserContext';
+// import CompOne from './components/CompOne';
+import HookCounter from './components/HookCounter';
+// import { UserProvider } from './components/UserContext';
 // import ClickCounterThree from './components/ClickCounterThree';
 // import HoverCounterTwo from './components/HoverCounterTwo';
 // import User from './components/User';
@@ -89,9 +90,12 @@ function App() {
       <ClickCounterTwo name="Rakib" /> */}
       {/* <User render= { (value, increament) => ( <ClickCounterThree value={value} increament={increament} /> )} />
       <User render= { (value, increament) => ( <HoverCounterTwo value={value} increament={increament} /> )} /> */}
-      <UserProvider value= "Tanmoy">
+      {/* <UserProvider value= "Tanmoy">
         <CompOne />
-      </UserProvider>
+      </UserProvider> */}
+
+      {/* REACT HOOKS */}
+      <HookCounter />
     </div>
   );
 }
