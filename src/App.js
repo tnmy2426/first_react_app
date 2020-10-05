@@ -1,7 +1,8 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import HookUseStateWithObject from './components/HookUseStateWithObject';
+import HookUseStateWithArray from './components/HookUseStateWithArray';
+// import HookUseStateWithObject from './components/HookUseStateWithObject';
 // import CompOne from './components/CompOne';
 // import HookCounter from './components/HookCounter';
 // import { UserProvider } from './components/UserContext';
@@ -97,7 +98,8 @@ function App() {
 
       {/* REACT HOOKS */}
       {/* <HookCounter /> */}
-      <HookUseStateWithObject />
+      {/* <HookUseStateWithObject /> */}
+      <HookUseStateWithArray />
     </div>
   );
 }

@@ -4,7 +4,7 @@ const HookUseStateWithObject = () => {
 
     const [info, setinfo] = useState({
         name: "",
-        id: null
+        id: ""
     })
     return (
         <div>
