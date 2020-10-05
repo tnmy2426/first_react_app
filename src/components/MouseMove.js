@@ -12,8 +12,11 @@ const MouseMove = () => {
     useEffect(() => {
         console.log("userEffect running")
         window.addEventListener('mousemove', LogMouseMove)
-        
-    },[])
+        return () => {
+            window.removeEventListener('mousemove', LogMouseMove)
+        }
+    }, [])
+
     return (
         <div>
             <h3>X: {x} , Y: {y}</h3>

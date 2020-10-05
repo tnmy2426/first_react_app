@@ -1,7 +1,8 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import MouseMove from './components/MouseMove';
+import MouseContainer from './components/MouseContainer';
+// import MouseMove from './components/MouseMove';
 // import HookCounterTwo from './components/HookCounterTwo';
 // import ClassCounterTwo from './components/ClassCounterTwo';
 // import HookUseStateWithArray from './components/HookUseStateWithArray';
@@ -105,7 +106,8 @@ function App() {
       {/* <HookUseStateWithArray /> */}
       {/* <ClassCounterTwo /> */}
       {/* <HookCounterTwo /> */}
-      <MouseMove />
+      {/* <MouseMove /> */}
+      <MouseContainer />
     </div>
   );
 }
