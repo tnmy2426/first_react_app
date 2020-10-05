@@ -1,7 +1,8 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import ClassCounterTwo from './components/ClassCounterTwo';
+import HookCounterTwo from './components/HookCounterTwo';
+// import ClassCounterTwo from './components/ClassCounterTwo';
 // import HookUseStateWithArray from './components/HookUseStateWithArray';
 // import HookUseStateWithObject from './components/HookUseStateWithObject';
 // import CompOne from './components/CompOne';
@@ -101,7 +102,8 @@ function App() {
       {/* <HookCounter /> */}
       {/* <HookUseStateWithObject /> */}
       {/* <HookUseStateWithArray /> */}
-      <ClassCounterTwo />
+      {/* <ClassCounterTwo /> */}
+      <HookCounterTwo />
     </div>
   );
 }
