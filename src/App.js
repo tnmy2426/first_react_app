@@ -1,9 +1,10 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import ComponentX from './components/ComponentX';
-export const UserContext = React.createContext() 
-export const ProfileContext = React.createContext() 
+// import ComponentX from './components/ComponentX';
+import ParentComp from './components/ParentComp';
+// export const UserContext = React.createContext() 
+// export const ProfileContext = React.createContext() 
 // import MouseContainer from './components/MouseContainer';
 // import MouseMove from './components/MouseMove';
 // import HookCounterTwo from './components/HookCounterTwo';
@@ -111,11 +112,13 @@ function App() {
       {/* <HookCounterTwo /> */}
       {/* <MouseMove /> */}
       {/* <MouseContainer /> */}
-      <UserContext.Provider value={"Tnmy"}>
+      {/* <UserContext.Provider value={"Tnmy"}>
         <ProfileContext.Provider value={"This is profile context data"}>
           <ComponentX />
         </ProfileContext.Provider>
-      </UserContext.Provider>
+      </UserContext.Provider> */}
+
+      <ParentComp />
      
     </div>
   );
