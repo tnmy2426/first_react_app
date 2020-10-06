@@ -1,7 +1,10 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import MouseContainer from './components/MouseContainer';
+import ComponentX from './components/ComponentX';
+export const UserContext = React.createContext() 
+export const ProfileContext = React.createContext() 
+// import MouseContainer from './components/MouseContainer';
 // import MouseMove from './components/MouseMove';
 // import HookCounterTwo from './components/HookCounterTwo';
 // import ClassCounterTwo from './components/ClassCounterTwo';
@@ -107,7 +110,13 @@ function App() {
       {/* <ClassCounterTwo /> */}
       {/* <HookCounterTwo /> */}
       {/* <MouseMove /> */}
-      <MouseContainer />
+      {/* <MouseContainer /> */}
+      <UserContext.Provider value={"Tnmy"}>
+        <ProfileContext.Provider value={"This is profile context data"}>
+          <ComponentX />
+        </ProfileContext.Provider>
+      </UserContext.Provider>
+     
     </div>
   );
 }
