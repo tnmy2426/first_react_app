@@ -1,7 +1,8 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import Input from './components/Input';
+import TimerOne from './components/TimerOne';
+// import Input from './components/Input';
 // import CounterTwo from './components/CounterTwo';
 // import ComponentX from './components/ComponentX';
 // import ParentComp from './components/ParentComp';
@@ -122,7 +123,8 @@ function App() {
 
       {/* <ParentComp /> */}
       {/* <CounterTwo /> */}
-      <Input />
+      {/* <Input /> */}
+      <TimerOne />
     </div>
   );
 }
