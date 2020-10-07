@@ -1,7 +1,8 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import CounterTwo from './components/CounterTwo';
+import Input from './components/Input';
+// import CounterTwo from './components/CounterTwo';
 // import ComponentX from './components/ComponentX';
 // import ParentComp from './components/ParentComp';
 // export const UserContext = React.createContext() 
@@ -120,7 +121,8 @@ function App() {
       </UserContext.Provider> */}
 
       {/* <ParentComp /> */}
-      <CounterTwo />
+      {/* <CounterTwo /> */}
+      <Input />
     </div>
   );
 }
