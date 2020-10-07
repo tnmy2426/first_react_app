@@ -1,8 +1,9 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
+import CounterTwo from './components/CounterTwo';
 // import ComponentX from './components/ComponentX';
-import ParentComp from './components/ParentComp';
+// import ParentComp from './components/ParentComp';
 // export const UserContext = React.createContext() 
 // export const ProfileContext = React.createContext() 
 // import MouseContainer from './components/MouseContainer';
@@ -118,8 +119,8 @@ function App() {
         </ProfileContext.Provider>
       </UserContext.Provider> */}
 
-      <ParentComp />
-     
+      {/* <ParentComp /> */}
+      <CounterTwo />
     </div>
   );
 }
